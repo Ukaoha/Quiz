@@ -11,6 +11,8 @@ import Footer from './Components/Data/Footer/Footer';
 
 function App() {
   return (
+    // <HashRouter>
+
     <div className="App">
       <Navbar/>
       <Routes>
@@ -25,8 +27,11 @@ function App() {
 
 
 
+
       
     </div>
+    // </HashRouter>
+
   );
 }
 
