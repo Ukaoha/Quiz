@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Routes , Route , HashRouter} from 'react-router-dom';
+import {Routes , Route , HashRouter, BrowserRouter,Switch} from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Register from './Pages/Registar/Registar';
 import Login from './Pages/Login/Login';
@@ -13,9 +13,10 @@ function App() {
   return (
     // <HashRouter>
 
+
     <div className="App">
       <Navbar/>
-      <Routes>
+      < Routes>
       <Route path='/' element={<Register/>}/>
       <Route path='/quiz' element={<Quiz/>}/>
       <Route path='/login' element={<Login/>}/>
@@ -30,7 +31,7 @@ function App() {
 
       
     </div>
-    // </HashRouter>
+
 
   );
 }
