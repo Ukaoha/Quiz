@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Register from './Pages/Registar/Registar';
 import Login from './Pages/Login/Login';
 import Quiz from './Pages/Quiz/Quiz';
-import Footer from './Components/Data/Footer/Footer';
+// import Footer from './Components/Data/Footer/Footer';
 
 
 
@@ -22,7 +22,7 @@ function App() {
 
 
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
 
 
 

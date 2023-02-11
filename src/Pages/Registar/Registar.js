@@ -44,7 +44,7 @@ const handleSubmit = (values, { setSubmitting}) => {
 
 
   setSubmitting(false);
-   window.location = '/Quiz/quiz';
+   window.location = '/quiz';
 
 };
 
