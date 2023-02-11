@@ -34,7 +34,7 @@ const Login = () => {
     });
     
       // Redirect to another page.
-      window.location = '/Quiz/quiz';
+      window.location = '/quiz';
     }
   };
 

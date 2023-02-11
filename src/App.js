@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import {Routes , Route , HashRouter, BrowserRouter,Switch} from 'react-router-dom';
+import {Routes , Route , } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Register from './Pages/Registar/Registar';
 import Login from './Pages/Login/Login';
